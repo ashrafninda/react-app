@@ -1,11 +1,10 @@
-import "./App.css";
-
 import React from "react";
 import { hot } from "react-hot-loader";
+import styles from "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <h1>Hello, World!</h1>
     </div>
   );
